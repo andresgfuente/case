@@ -48,5 +48,29 @@ nombres_masculinos = [
     "rufino", "santino", "saul", "sebastian", "silvestre", "simeon", "simon", "tabare", "tadeo", "teodoro",
     "tito", "ulises", "victor", "vicente", "waldo", "xavier", "yair", "yahir", "zacarias", "zamir",
 ]
+apellidos = [
+    "alvarez", "andrade", "aguilar", "arroyo", "aguilera", "arias", "avila", "barrios", "benitez", "blanco",
+    "bravo", "caballero", "calderon", "campos", "castillo", "cortes", "delgado", "dominguez", "espinoza", "estrada",
+    "fernandez", "flores", "gomez", "gonzalez", "gutierrez", "hernandez", "herrera", "ibanez", "jimenez", "jimenez",
+    "leon", "lopez", "lozano", "martinez", "medina", "mejia", "menendez", "mendoza", "molina", "montero",
+    "montes", "morales", "moreno", "munoz", "navarro", "olivera", "ortega", "pacheco", "padilla", "paredes",
+    "perez", "quintero", "ramirez", "rivas", "rivera", "rodriguez", "romero", "rubio", "ruiz", "sanchez",
+    "santana", "santiago", "santos", "serrano", "silva", "soto", "suarez", "torres", "valdez", "valencia",
+    "vasquez", "vega", "velasquez", "vargas", "varona", "vera", "zambrano", "zavala", "acosta", "aguirre",
+    "alvarado", "alvarez", "andrade", "araya", "ayala", "bazan", "bello", "beltran", "blanco", "bonilla",
+    "bravo", "caballero", "calderon", "camacho", "campos", "carrasco", "carvajal", "castaneda", "castellanos", "castillo",
+    "contreras", "cortes", "cruz", "de la cruz", "cordero", "coronado", "cortez", "cruz", "delgado", "diaz",
+    "dominguez", "duarte", "escobar", "espinosa", "estrada", "fajardo", "farias", "fernandez", "ferrer", "figueroa",
+    "flores", "franco", "galvez", "garcia", "garza", "gomez", "gonzalez", "gutierrez", "hernandez", "herrera",
+    "ibarra", "iguinez", "jaramillo", "jimenez", "juarez", "leon", "lima", "lopez", "lozano", "madrigal",
+    "malave", "maldonado", "mancilla", "marin", "martinez", "medina", "mendez", "mendoza", "mercado", "merida",
+    "miranda", "molina", "montero", "montes", "mora", "morales", "moreno", "munoz", "navarrete", "navarro",
+    "nunez", "olivera", "ordonez", "orellana", "ortega", "padilla", "paredes", "perez", "quintero", "ramirez",
+    "ramos", "rangel", "real", "reyes", "rico", "rios", "rivera", "romero", "rosales", "rubio",
+    "ruiz", "saenz", "salas", "salazar", "sanchez", "sandoval", "santana", "santiago", "santos", "serrano",
+    "silva", "solis", "soto", "suarez", "tapia", "torres", "valdes", "valdez", "vargas", "varona",
+    "vazquez", "vega", "velasquez", "veliz", "vargas", "vera", "villa", "villalobos", "villanueva", "yanez",
+    "zambrano", "zavala", "zuniga"
+]
 
 

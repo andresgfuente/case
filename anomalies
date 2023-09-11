@@ -1,0 +1,43 @@
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.ensemble import IsolationForest
+
+# Datos de ejemplo (reemplaza esto con tus propios datos)
+conversaciones = [
+    'quiero tarjeta credito',
+    'requisitos prestamos',
+    'prestamos contacto',
+    'itau peor',
+    'pin activar',
+    'pin solicitar',
+    'app no funciona',
+    'app del pin',
+    'fraude',
+    'cerro equipo  paraguay',
+    'requisitos tarjeta credito',
+    'requisitos tarjeta debito',
+    'cajero dinero tiene',
+    'hello moto what is your name',
+    'pin transaccion',
+    'pin funciona',
+    'pin activar',
+    'cajero no funciona',
+    'cajero dinero'
+    
+]
+
+# Preprocesamiento de texto y extracción de características (TF-IDF)
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform(conversaciones)
+
+# Entrenamiento del modelo Isolation Forest
+clf = IsolationForest(contamination=0.1, random_state=42)
+clf.fit(X)
+
+# Predicción de anomalías
+anomalies = clf.predict(X)
+
+# Mostrar resultados
+for i, conversation in enumerate(conversaciones):
+    if anomalies[i] == -1:
+        print(f"Anomalía detectada en la conversación: {conversation}")
